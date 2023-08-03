@@ -1,0 +1,72 @@
+.burger {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger-top {
+    width: 100%;
+    min-height: 50px;
+    background-color: #eecc82;
+    border-radius: 50px 50px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.burger-bottom {
+    width: 100%;
+    min-height: 25px;
+    background-color: #f7d794;
+    border-radius: 10px 10px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.lettuce {
+    width: 100%;
+    min-height: 20px;
+    background-color: rgb(89, 196, 89);
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.cheese {
+    width: 110%;
+    min-height: 10px;
+    background-color: orange;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.patty {
+    width: 80%;
+    min-height: 30px;
+    background-color: #e17055;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.bacon {
+    width: 95%;
+    min-height: 25px;
+    background-color: brown;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-top: 50px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
